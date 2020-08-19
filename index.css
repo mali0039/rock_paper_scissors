@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    background-image: url(background.png);
+    background-repeat: repeat;
+    background-size: cover;  
+}
+h1 {
+    text-align: center;
+    color: blue;
+}
+.guesses {
+    background-color: black;
+    width: 400px;
+    height: 350px;
+    border: 2px solid white;
+    color: blue;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 120px;
+}
+#divider{
+    width: 100%;
+    background-color: red;
+    height: 50px;
+}
+div:nth-of-type(1) {
+    color: #D2B48C;
+}
+div:nth-of-type(2) {
+    color: white;
+}
+div:nth-of-type(3) {
+    color: #A9A9A9;
+}
+div div:hover {
+    color: gold;
+    border: 1px solid gold;
+}
+#reset {
+    border: 0px;
+    background: none;
+    font-size: 40px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+.win {
+        color: green;
+}
